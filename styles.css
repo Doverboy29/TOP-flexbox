@@ -80,7 +80,9 @@ h1 {
   align-items: center;
   width: 600px;
   height: 250px;
-  background-color: gray;
+  background-color: rgb(92, 92, 92);
+  color: white;
+  font-size: 20px;
 }
 
 .button {
@@ -162,4 +164,65 @@ h1 {
   text-align: center;
   width: 158px;
   padding-top: 10px;
+}
+
+.middle-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  background: #e5e7eb;
+  padding: 0 23% 0 23%;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+  padding-left: 400px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background: white;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  height: 150px;
+  background: #3882f6;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.reverse-button {
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  padding: 4px 25px 4px 25px;
+  border-width: 3px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+  height: 100px;
+  color: white;
+  font-size: 20px;
 }
